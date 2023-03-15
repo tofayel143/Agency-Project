@@ -12,12 +12,13 @@
     transform-style: flat;
     
 }
+
 .form{
     /* position: absolute; */
     width: 100%;
     height: auto;
     left: 0px;
-    top: 2600px;
+    /* top: 2600px; */
 
 background: #FBD062;
 }
