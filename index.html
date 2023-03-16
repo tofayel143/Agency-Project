@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Agency Project</title>
     <link rel="shortcut icon" href="imgs/Frame.png" class="color: oranged" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css" integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"/>
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css"  rel="stylesheet" /> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
@@ -16,12 +17,12 @@
 <body>
   <section class="section-one bg-img bg-cover"
     style="background-image: url('imgs/BG-img/Rectangle 274.png'); height:676px; width:100%; margin-bottom: 50px;">
-    <div class="container ">
+    <div class="container">
       <nav class="navbar navbar-expand-lg bg-body-none pt-4">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="imgs/logos/Group 1367.png" alt="Logo" width="150" height="50"
-              class="d-inline-block align-text-top">
+              class="d-inline-block align-text-top img-fluid">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,8 +52,8 @@
       </nav>
     </div>
     <div class="container text-center mt-5">
-      <div class="row gx-5 align-items-end pb-5 mb-5">
-        <div class="col-5 pb-5 text-start">
+      <div class="row align-items-end pb-5 mb-5">
+        <div class="col pb-5 text-start">
           <p class="fs-1 fw-bold">
             Let us handle your project, professionally.
           </p>
@@ -96,19 +97,19 @@
   <div class="container services text-center mt-5">
     <p class="fs-1 fw-bold">Provide awesome <span style="color: #7AB259">services</span></p>
     <div class="row justify-content-center gap-4 mt-5">
-      <div class="service col-4 col-md-4 p-4" style="width: 360px; height: 319px; top: 1149px; left: 535px; border-radius: 10px;">
+      <div class="service-fluid col-sm-4 col-md-4 p-4" style="width: 360px; height: 319px; top: 1149px; border-radius: 10px;">
         <img src="imgs/services/iphone 1.png" alt="Logo" width="74" height="74"
               class="d-inline-block align-text-top mt-4">
         <p class="fs-5 fw-bold mt-3">Web & Mobile design</p>
         <p class="fs-5 fw-light">We craft stunning and amazing web UI, using a well drrafted UX to fit your product.</p>
       </div>
-      <div class="service col-4 col-md-4 p-4" style="width: 360px; height: 319px; top: 1149px; left: 535px; border-radius: 10px;">
+      <div class="service col-sm-4 col-md-4 p-4" style="width: 360px; height: 319px; top: 1149px; border-radius: 10px;">
         <img src="imgs/services/color-palette 1.png" alt="Logo" width="74" height="74"
               class="d-inline-block align-text-top mt-4">
         <p class="fs-5 fw-bold mt-3">Graphic design</p>
         <p class="fs-5 fw-light">Amazing flyers, social media posts and brand representations that would make your brand stand out.</p>
       </div>
-      <div class="service col-4 col-md-4 p-4" style="width: 360px; height: 319px; top: 1149px; left: 535px; border-radius: 10px;">
+      <div class="service col-sm-4 col-md-4 p-4" style="width: 360px; height: 319px; top: 1149px;  border-radius: 10px;">
         <img src="imgs/services/coding 1.png" alt="Logo" width="74" height="74"
               class="d-inline-block align-text-top mt-4">
         <p class="fs-5 fw-bold mt-3">Web development</p>
@@ -240,7 +241,7 @@
 
   <section class="form" style="margin-top: 200px;">
     <div class="container g-0 text-center">
-      <div class="row text-start">
+      <div class="row text-start gap-3">
         <div class="col">
           <p class="fs-1 fw-bold lh-sm" style="margin-top: 100px;">
             Let us handle your project, professionally.
@@ -249,7 +250,7 @@
             With well written codes, we build amazing apps for all platforms, mobile and web apps in general.
           </p>
         </div>
-        <div class="col-6">
+        <div class="col">
           <div class="mb-3" style="margin-top: 100px;">
             <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
             <input type="email" class="form-control p-3" id="exampleFormControlInput1" placeholder="name@example.com" rows="5">
@@ -275,13 +276,10 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+    ></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-    crossorigin="anonymous"></script>
+    ></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-    crossorigin="anonymous"></script>
+    ></script>
  </body>
 </html>
